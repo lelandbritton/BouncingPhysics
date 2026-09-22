@@ -6,7 +6,7 @@
 	],
 	"settings": {
 		"files.associations": {
-			"raylib.h": "c",
+			"raylib.h": "cpp",
 			"math.h": "c",
 			"blocks.h": "c",
 			"stdio.h": "c",

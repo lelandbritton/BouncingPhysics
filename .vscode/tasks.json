@@ -4,22 +4,8 @@
         {
             "label": "Build Raylib",
             "type": "shell",
-            "command": "C:\\raylib\\w64devkit\\bin\\g++.exe",
-            "args": [
-                "-g",
-                "${workspaceFolder}\\src\\main.cpp",
-                "${workspaceFolder}\\src\\ball.cpp",
-                "-o",
-                "${workspaceFolder}\\src\\main.exe",
-                "-I",
-                "C:\\raylib\\w64devkit\\include",
-                "-L",
-                "C:\\raylib\\w64devkit\\lib",
-                "-lraylib",
-                "-lopengl32",
-                "-lgdi32",
-                "-lwinmm"
-            ],
+            "command": "make",
+            "args": [],
             "options": {
                 "cwd": "${workspaceFolder}"
             },
